@@ -13,3 +13,31 @@ console.log(score)
 console.log(typeof convertString);
 console.log(convertString)
 
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let myYoutubeName = "VIP's"
+let anotherName =  myYoutubeName
+anotherName =  "choco"
+
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+
+let userOne =  {
+    email : "chocobar@google.com",
+    phoneNumber : 4356783910
+}
+
+let userTwo = userOne
+
+userTwo.email = "example@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
