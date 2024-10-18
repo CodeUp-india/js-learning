@@ -24,3 +24,36 @@ function UserLoggedInMessages(username) {
 }
 UserLoggedInMessages()
 
+
+
+// shoping kart
+
+function caluclateKartPrice(...num1){
+
+    return num1
+
+}
+ console.log(caluclateKartPrice(255, 23, 533, 454));
+
+ const user = {
+    username : "lali",
+    price : 784
+}
+
+function getUserdata(getData){
+        console.log(`Username is ${getData.username} and the price is ${getData.price}`);
+}
+//getUserdata(user)
+getUserdata({
+    username : "chokender",
+    price : 899
+})
+
+const myArray = [12, 45, 55, 24]
+
+function getThirdValue(newarray) {
+    return newarray[2]
+}
+//console.log(getThirdValue(myArray))
+console.log(getThirdValue([234, 45, 456, 232]));
+
