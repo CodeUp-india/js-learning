@@ -22,11 +22,17 @@ for (let i = 1; i <= 10; i++) {
 
 
 let myArry = ['choco', 'wico', 'abbys']
-for (let i = 0; i < myArry.length; i) {
+for (let i = 0; i < myArry.length; i++) {
+    
     const element = myArry[i];
+    if (element == 'wico') {
+        console.log(`${element } !! Error !!  you have put the wrong name  `);
+        break      
+    }
     console.log(element);
     
+   
 }
 
-//break and continue
+
 
