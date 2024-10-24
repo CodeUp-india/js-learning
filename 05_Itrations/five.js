@@ -35,6 +35,6 @@ const myCode = [
 ]
 
 myCode.forEach( (item) => {
-    console.log(item.languageFileName);
+    console.log(item);
     
 })
