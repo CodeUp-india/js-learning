@@ -10,14 +10,16 @@
 </body>
 <script>
     const div = document.createElement('div')
-    console.log(div);
+    console.log(div)
     div.className = "main"
-    div.setAttribute("title", "Generated title")
-    div.style.backgroundColor = "green"
-    div.style.padding = "15px"
-    const addText = document.createTextNode("Choco hai yae")
+    div.id = Math.round(Math.random()*10+1)
+    div.setAttribute("title", "generate title")
+    div.style.backgroundColor = 'black'
+    div.style.color = "green"
+    div.style.padding = "10px"
+    div.style.borderRadius = '5px'
+    const addText = document.createTextNode("chai leke a re")
     div.appendChild(addText)
-
     document.body.appendChild(div)
 </script>
 </html>
