@@ -14,9 +14,9 @@ form.addEventListener('submit', function(e){
     else{
         const bmi = (weight / ((height*height) / 10000)).toFixed(2)
         result.innerHTML = `<span>${bmi}<span>`
-        if (bmi <= 18.5) {
+        if (bmi <= 18.9) {
             result.innerHTML = `Your BMI is ${bmi} Put on some weight you skinny AF`
-        } else if (bmi >= 18.5 && bmi <= 24.5) {
+        } else if (bmi >= 18.9 && bmi <= 24.8) {
             result.innerHTML = `Your BMI is ${bmi}, You are fine `
         }else{
             result.innerHTML = `Damm!!!! ${bmi} is your BMI. Go to GYM you Chaeso looking fat motherfucker`
