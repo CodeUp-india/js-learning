@@ -21,11 +21,10 @@ h1{
 }
 
 .button{
-    width: 100px;
-    height: 100px;
-    border: solid, black 2px;
-    display: inline-block;
-
+   width: 100px;
+   height: 100px;
+   border: solid black 2px;
+   display: inline-block;
 }
 #blue{
     background-color: blue;
