@@ -1,0 +1,86 @@
+html{
+    margin: 0;
+    text-align: center;
+    position: fixed;
+
+
+}
+body{
+    background-color: beige;
+    padding: 100px;
+    text-align: center;
+    font-family: cursive;
+}
+h1{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    border: solid;
+    background-color: blanchedalmond;
+}
+#guess{
+    padding: 50px;
+    border: solid;
+    border-radius: 15px;
+    background-color: burlywood;
+}
+#submit {
+    font-family: cursive;
+    padding:  20px 30px;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid rgb(189, 154, 60);
+    border-right: 2px solid rgb(187, 146, 59);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    transition-property: border-top, border-left, border-bottom, border-right,
+      box-shadow;
+  }
+  
+  #submit {
+    border-top: 2px solid rgb(114, 82, 35);
+    border-left: 2px solid rgba(177, 128, 37, 0.712);
+    border-bottom: 2px solid rgb(143, 106, 57);
+    border-right: 2px solid rgb(138, 114, 49);
+    box-shadow: rgba(59, 47, 21, 0.4) 5px 5px, rgba(116, 94, 55, 0.3) 10px 10px,
+      rgba(155, 127, 87, 0.2) 15px 15px;
+  }
+  #number{
+    padding: 50px;
+    font-size: larger;
+  }
+  .guessField{
+    height: 40px;
+    width: 140px;
+    font-family: cursive;
+    font-size: x-large;
+    text-align: center;
+  }
+ #newGame{
+    font-family: cursive;
+    padding:  20px 30px;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 0.5rem;
+    border-bottom: 2px solid rgb(189, 154, 60);
+    border-right: 2px solid rgb(187, 146, 59);
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    transition-property: border-top, border-left, border-bottom, border-right,
+      box-shadow;
+ }
+ #newGame{
+    border-top: 2px solid rgb(114, 82, 35);
+    border-left: 2px solid rgba(177, 128, 37, 0.712);
+    border-bottom: 2px solid rgb(143, 106, 57);
+    border-right: 2px solid rgb(138, 114, 49);
+    box-shadow: rgba(59, 47, 21, 0.4) 5px 5px, rgba(116, 94, 55, 0.3) 10px 10px,
+      rgba(155, 127, 87, 0.2) 15px 15px;
+ }
