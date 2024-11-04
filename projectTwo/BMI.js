@@ -19,7 +19,7 @@ form.addEventListener('submit', function(e){
         } else if (bmi >= 18.9 && bmi <= 24.8) {
             result.innerHTML = `Your BMI is ${bmi}, You are fine `
         }else{
-            result.innerHTML = `Damm!!!! ${bmi} is your BMI. Go to GYM you Caesho looking fat motherfucker`
+            result.innerHTML = `Damm!!!! ${bmi} is your BMI. Go to GYM you Caesoh looking fat motherfucker`
         }
     }
 
