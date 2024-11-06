@@ -4,11 +4,21 @@ rect.addEventListener('mousemove', (e)=>{
     
     let insideRect = e.clientX - rectLocation.left
     if (insideRect<rectLocation.width/2){
-        console.log('left');
-    
+        let redcolor = gsap.utils.mapRange(0, rectLocation.width/2, 0, 255,  insideRect)
+        gsap.to(rect, {
+            backgroundColor: `rgb(255, ${redcolor}, ${redcolor})`,
+            ease: Power4,
+        })
     }else{
-        console.log('right');
+        let bluecolor = gsap.utils.mapRange(rectLocation.width/2, rectLocation.width, 255, 0,  insideRect)
+        gsap.to(rect, {
+            backgroundColor: `rgb(${bluecolor}, ${bluecolor}, 255)`,
+            ease: Power4,
+        })
     }
-    
-    
+})
+rect.addEventListener('mouseleave', ()=>{
+    gsap.to(rect, {
+        backgroundColor: "white",
+    })
 })
